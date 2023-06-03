@@ -1,0 +1,36 @@
+html, body {
+    display: grid;
+    place-items: center;
+    height: 80vh;
+}
+
+input {
+    display: flex;
+    padding: 12px;
+    width: 100%;
+}
+
+input :: placeholder{
+    color: transparent;
+}
+
+label {
+    position: relative;
+    background-color: white;
+    padding-inline: 6px;
+    top: 10px;
+    left: 10px;
+}
+
+button{
+    background-color: rgb(206, 175, 235);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: blueviolet;
+}
